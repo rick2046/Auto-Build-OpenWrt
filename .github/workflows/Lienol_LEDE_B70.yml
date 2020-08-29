@@ -17,8 +17,8 @@ on:
       - main
     paths:
       - 'Lienol_LEDE_B70.config'
-  schedule:
-    - cron: 0 6 1/3 * *
+#  schedule:
+#    - cron: 0 6 1/3 * *
   watch:
     types: started
 
