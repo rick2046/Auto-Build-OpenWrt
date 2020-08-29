@@ -19,8 +19,8 @@ on:
       - 'Lienol_Docker_OpenWrt_N1.config'
       - 'n1/**'
       - '.github/workflows/Lienol_Docker_OpenWrt_N1.yml'
-  schedule:
-    - cron: 0 6 1/3 * *
+#  schedule:
+#    - cron: 0 6 1/3 * *
   watch:
     types: started
 
